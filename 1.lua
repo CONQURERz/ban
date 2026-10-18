@@ -9508,7 +9508,7 @@ function MOKING.OnMatchEnter()
   if MOKING._matchEntered then return end
   MOKING._matchEntered = true
   MOKING.ShowTopText()
-  MOKING.ShowWelcomePopup()
+--	MOKING.ShowWelcomePopup()
 end
 
 A.Up.Pulse = (A.Up.Pulse or 0) + 1
